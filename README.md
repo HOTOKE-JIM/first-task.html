@@ -9,9 +9,9 @@
          <body>
             ID:245342 الاسم :كريم عطيه منصور 
             <h1>first task</h1> 
-            <a href="https://www.nvidia.com/en-me/geforce/graphics-cards/40-series/rtx-4090/"target="_blank"><img src="Nvidia GeForce RTX 4090.jpeg"></a>
+<a href="https://www.nvidia.com/en-me/geforce/graphics-cards/40-series/rtx-4090/"target="_blank"><img title="Nvidia GeForce RTX 4090"src="image/Nvidia GeForce RTX 4090.jpeg"></a>
             <!--describes-->
-                <h2>GeForce RTX 4090</h2>
+             <h2>GeForce RTX 4090</h2>
              <h3>Beyond Fast</h3>
              <h4>
                 The NVIDIA® GeForce RTX™ 4090 is the ultimate GeForce<br>
@@ -25,14 +25,21 @@
             </h4>
              <!--iamge2-->
             <h2>Basic Elements of the HTML</h2>
-            <img src="basic elements.png"alt="basic elements html">
+            <ol>
+               <li>Head</li>
+               <li>Paragraph</li>
+               <li>Image</li>
+               <li>Link</li>
+               <li>Body</li>
+           </ol>
+            <img title="Basic Elements of the HTML"src="image/basic elements.png"alt="basic elements html">
             <!--links-->
             <h2>social media links</h2>
             <ul>
-            <li><a href="https://www.google.com"target="_blank">Google</a></li>
-            <li><a href="https://www.twitter.com"target="_blank">twitter</a></li>
-            <li><a href="https://www.facebook.com"target="_blank">facebook</a></li>
-            <li><a href="https://www.youtube.com"target="_blank">youtube</a></li>
+               <li><button onclick="window.open('https://www.google.com', '_blank')">Google</button></li><br>
+               <li><button onclick="window.open('https://www.twitter.com', '_blank')">twitter</button></li><br>
+               <li><button onclick="window.open('https://www.facebook.com', '_blank')">Facebook</button></li><br>
+               <li><button onclick="window.open('https://www.youtube.com', '_blank')">YouTube</button></li>
             </ul>
             </body>
 </html>
