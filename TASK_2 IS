@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UFT-8">
+      <title>
+         TASK_2 IS
+      </title>
+   </head>
+   <body>
+      <table align="center" border="2">
+         <caption><h3>products sales</h3></caption>
+         <thead>
+            <tr>
+               <th>image</th>
+               <th>price</th>
+               <th>product</th>
+               <th colspan="2">quality</th>
+            </tr>
+         </thead>
+         <tbody>
+       <!--apple-->
+      <tr>
+         <td> <img width="150" src="image/apple.jpg"></td>
+         <td>150</td>
+         <td>apples</td>
+         <td rowspan="6">high</td>
+         <td rowspan="6">medium</td>
+         </tr>
+      <!--orange-->
+      <tr>
+         <td><img width="150" src="image/orange.jpg"></td>
+         <td rowspan="3">50</td>
+         <td>orange</td>
+         </tr>
+      <!--grapes-->
+      <tr>
+         <td><img width="150" src="image/Grapes.jpg"></td>
+         <td>Grapes</td>
+         </tr>
+      <!--watermelon-->
+      <tr>
+         <td><img width="150" src="image/watermelon.jpg"></td>
+         <td>watermelon</td>
+         </tr>
+      <!--banana-->
+      <tr>
+         <td><img width="150" src="image/banana.jpg"></td>
+         <td>125</td>
+         <td>banana</td>
+         </tr>
+      <!--lemon-->
+      <tr>
+         <td><img width="150" src="image/lemon.jpg"></td>
+         <td>25</td>
+         <td>lemon</td>
+         </tr>
+         </tbody>
+         <tfoot>
+       <tr>
+         <td>total</td>
+         <td align ="center" colspan="4">450 L.E</td>
+       </tr>     
+         </tfoot>
+
+      </table>
+   </body>
+</html>
