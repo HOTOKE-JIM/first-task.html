@@ -1,67 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UFT-8">
-      <title>
-         TASK_2 IS
-      </title>
-   </head>
-   <body>
-      <table align="center" border="2">
-         <caption><h3>products sales</h3></caption>
-         <thead>
+    <head>
+        <meta charset="UTF-8">
+        <title>TASK_2</title>
+    </head>
+    <body>
+        <table align="center" border="2">
+            <caption><h3>Products Sales</h3></caption>
+            <thead>
+                <tr>
+                    <th>image</th>
+                    <th>Price</th>
+                    <th>Product</th>
+                    <th>Quality</th>
+                </tr>
+            </thead>
+            <tbody>
+            <!--apple-->
             <tr>
-               <th>image</th>
-               <th>price</th>
-               <th>product</th>
-               <th colspan="2">quality</th>
+                <td rowspan="2"><img width="100" src="image/apple.jpg" alt="apple"></td>
+                <td rowspan="2">150</td>
+                <td rowspan="2">apples</td>
+                <td>High</td>
             </tr>
-         </thead>
-         <tbody>
-       <!--apple-->
-      <tr>
-         <td> <img width="150" src="image/apple.jpg"></td>
-         <td>150</td>
-         <td>apples</td>
-         <td rowspan="6">high</td>
-         <td rowspan="6">medium</td>
-         </tr>
-      <!--orange-->
-      <tr>
-         <td><img width="150" src="image/orange.jpg"></td>
-         <td rowspan="3">50</td>
-         <td>orange</td>
-         </tr>
-      <!--grapes-->
-      <tr>
-         <td><img width="150" src="image/Grapes.jpg"></td>
-         <td>Grapes</td>
-         </tr>
-      <!--watermelon-->
-      <tr>
-         <td><img width="150" src="image/watermelon.jpg"></td>
-         <td>watermelon</td>
-         </tr>
-      <!--banana-->
-      <tr>
-         <td><img width="150" src="image/banana.jpg"></td>
-         <td>125</td>
-         <td>banana</td>
-         </tr>
-      <!--lemon-->
-      <tr>
-         <td><img width="150" src="image/lemon.jpg"></td>
-         <td>25</td>
-         <td>lemon</td>
-         </tr>
-         </tbody>
-         <tfoot>
-       <tr>
-         <td>total</td>
-         <td align ="center" colspan="4">450 L.E</td>
-       </tr>     
-         </tfoot>
-
-      </table>
-   </body>
+                <tr><td>Medium</td></tr>
+            <!--orande-->
+            <tr>
+                <td rowspan="2"><img width="100" src="image/orange.jpg" alt="orange"></td>
+                <td rowspan="2">50</td>
+                <td rowspan="2">oranges</td>
+                <td>High</td>
+            </tr>
+            <tr><td>Medium</td></tr>
+            <!--grapes-->
+            <tr>
+            <td rowspan="2"><img width="100" src="image/Grapes.jpg" alt="grapes"></td>
+            <td rowspan="2">50</td>
+            <td rowspan="2">grapes</td>
+            <td>High</td>
+            </tr>
+            <tr>><td>Medium</td></tr>
+            <!--watermelon-->
+            <tr>
+            <td rowspan="2"><img width="100" src="image/watermelon.jpg" alt="watermelon"></td>
+            <td rowspan="2">50</td>
+            <td rowspan="2">watermelon</td>
+            <td>High</td>
+            </tr>
+            <tr>><td>Medium</td></tr>
+            <!--banana-->
+            <tr>
+            <td rowspan="2"><img width="100" src="image/banana.jpg" alt="banana"></td>
+            <td rowspan="2">125</td>
+            <td rowspan="2">banana</td>
+            <td>High</td>
+            </tr>
+            <tr><td>Medium</td></tr>
+            <!--lemon-->
+            <tr>
+            <td rowspan="2"><img width="100" src="image/lemon.jpg" alt="lemon"></td>
+            <td rowspan="2">25</td>
+            <td rowspan="2">lemon</td>
+            <td>High</td>
+            </tr>
+            <tr><td>Medium</td></tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td align="center" colspan="3">450 L.E</td>
+                </tr>
+            </tfoot>
+            </tbody>
+    </body>
 </html>
