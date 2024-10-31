@@ -3,7 +3,7 @@
      <head>
         <meta charset="UFT-8">
         <title>
-            first task
+            TASK_1 IS
          </title>
          </head>
          <body>
@@ -12,7 +12,7 @@
             <!--describes-->
              <h2>GeForce RTX 4090</h2>
              <h3>Beyond Fast</h3>
-             <h4>
+                  <h4><p>
                 The NVIDIA® GeForce RTX™ 4090 is the ultimate GeForce<br>
                 GPU. It brings an enormous leap in performance,<br>
                 efficiency, and AI-powered graphics. Experience ultra-high<br>
@@ -21,7 +21,7 @@
                 powered by the NVIDIA Ada Lovelace architecture and<br>
                 comes with 24 GB of G6X memory to deliver the ultimate<br>
                 experience for gamers and creators.<br>
-            </h4>
+                   </p></h4>
              <!--iamge2-->
             <h2>Basic Elements of the HTML</h2>
             <ol>
