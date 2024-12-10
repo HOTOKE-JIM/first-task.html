@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Flower Shop</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Fresh Flowers Delivered to Your Door</h2>
+            <p>Explore our beautiful arrangements, perfect for any occasion.</p>
+            <button>Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="shop" class="products">
+        <h2>Our Best Sellers</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Flower Bouquet">
+                <h3>Rose Bouquet</h3>
+                <p>$29.99</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Flower Bouquet">
+                <h3>Sunflower Arrangement</h3>
+                <p>$19.99</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Flower Bouquet">
+                <h3>Lily Bouquet</h3>
+                <p>$34.99</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to delivering the freshest, most beautiful flowers to your loved ones. With years of experience in floral design, we guarantee satisfaction with every arrangement.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Flower Shop. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
