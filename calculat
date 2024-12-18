@@ -1,0 +1,74 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+void showMenu() {
+    cout << "آلة حاسبة بسيطة" << endl;
+    cout << "1. جمع" << endl;
+    cout << "2. طرح" << endl;
+    cout << "3. ضرب" << endl;
+    cout << "4. قسمة" << endl;
+    cout << "5. خروج" << endl;
+}
+
+double add(double a, double b) {
+    return a + b;
+}
+
+double subtract(double a, double b) {
+    return a - b;
+}
+
+double multiply(double a, double b) {
+    return a * b;
+}
+
+double divide(double a, double b) {
+    if (b == 0) {
+        cout << "خطأ! لا يمكن القسمة على صفر." << endl;
+        return 0;
+    }
+    return a / b;
+}
+
+int main() {
+    double num1, num2;
+    int choice;
+
+    while (true) {
+        showMenu();
+        cout << "اختر العملية: ";
+        cin >> choice;
+
+        if (choice == 5) {
+            cout << "شكراً لاستخدامك الآلة الحاسبة!" << endl;
+            break;
+        }
+
+        cout << "أدخل الرقم الأول: ";
+        cin >> num1;
+
+        cout << "أدخل الرقم الثاني: ";
+        cin >> num2;
+
+        switch (choice) {
+            case 1:
+                cout << "النتيجة: " << add(num1, num2) << endl;
+                break;
+            case 2:
+                cout << "النتيجة: " << subtract(num1, num2) << endl;
+                break;
+            case 3:
+                cout << "النتيجة: " << multiply(num1, num2) << endl;
+                break;
+            case 4:
+                cout << "النتيجة: " << divide(num1, num2) << endl;
+                break;
+            default:
+                cout << "اختيار غير صحيح. حاول مرة أخرى." << endl;
+                break;
+        }
+    }
+
+    return 0;
+}
