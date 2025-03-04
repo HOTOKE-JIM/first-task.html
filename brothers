@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string fullName1, fullName2;
+    
+    // طلب إدخال الاسمين بالكامل
+    std::cout << "أدخل الاسم الكامل الأول: ";
+    std::getline(std::cin, fullName1);
+    
+    std::cout << "أدخل الاسم الكامل الثاني: ";
+    std::getline(std::cin, fullName2);
+
+    // استخراج اسم العائلة (نفترض أن اسم العائلة هو آخر كلمة في الاسم)
+    std::string lastName1 = fullName1.substr(fullName1.find_last_of(" ") + 1);
+    std::string lastName2 = fullName2.substr(fullName2.find_last_of(" ") + 1);
+
+    // التحقق مما إذا كان اللقبان متطابقين
+    if (lastName1 == lastName2) {
+        std::cout << "نعم، الاسمان إخوة!" << std::endl;
+    } else {
+        std::cout << "لا، الاسمان ليسا إخوة." << std::endl;
+    }
+
+    return 0;
+}
